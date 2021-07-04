@@ -9,12 +9,12 @@ h1{
     color: orange;
 }
 section{
-    display: flex;
+    display: flex;margin-bottom: 150px;
 }
-.first_section_div{
+.half-width{
     width: 50%;padding: 4%;
 }
-.first_section_div img{
+.half-width img{
     width: 80%;
     
 }
@@ -34,5 +34,9 @@ section{
 
 .top-banner{
     background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.second-section{
+    background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
 }
